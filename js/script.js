@@ -6,6 +6,7 @@ function scrollToBottom() {
 
 // テキストエリアの高さを自動調整
 window.addEventListener("DOMContentLoaded", () => {
+    setMessageHeight();
     scrollToBottom();
 
     var textareaEl = document.getElementById("message");
@@ -15,7 +16,8 @@ window.addEventListener("DOMContentLoaded", () => {
     // inputイベントが発生するたびに関数呼び出し
     textareaEl.addEventListener("input", setTextareaHeight);
     textareaEl.addEventListener("input", setMessageHeight);
-
+    textareaEl.addEventListener("input", scrollToBottom);
+    
     window.addEventListener("resize", setMessageHeight);
 });
 
