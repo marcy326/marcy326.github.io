@@ -6,6 +6,7 @@ body {
 }
 
 .balloon_left, .balloon_right {
+    word-break: break-all;
     position: relative;
     text-align: left;
     padding: 10px;
