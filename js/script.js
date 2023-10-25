@@ -66,9 +66,13 @@ function sendMessage() {
     if (textareaValue != ""){
         textareaValue = textareaValue.split("\n").join("<br>");
 
+        var now = new Date();
+        var Hour = now.getHours().toString().padStart(2, '0');
+        var Min = now.getMinutes().toString().padStart(2, '0');
+
         // HTMLに追加
         var outputDiv = document.getElementById("scroll");
-        outputDiv.innerHTML += '<div class="balloon_right"><p>' + textareaValue + '</p><div class="timestamp">00:00</div></div>';
+        outputDiv.innerHTML += '<div class="balloon_right"><p>' + textareaValue + '</p><div class="timestamp">' + Hour + ':' + Min + '</div></div>';
 
         // テキストエリアをクリア
         textareaEl.value = "";
