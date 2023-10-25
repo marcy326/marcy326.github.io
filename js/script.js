@@ -40,11 +40,29 @@ function setMessageHeight() {
     messages.style.marginBottom =  (getHeight("footer"))+'px';
 }
 
+// HTMLエスケープ
+function escape_html (string) {
+  if(typeof string !== 'string') {
+    return string;
+  }
+  return string.replace(/[&'`"<>]/g, function(match) {
+    return {
+      '&': '&amp;',
+      "'": '&#x27;',
+      '`': '&#x60;',
+      '"': '&quot;',
+      '<': '&lt;',
+      '>': '&gt;',
+    }[match]
+  });
+}
+
 // 送信時の処理
 function sendMessage() {
     // テキストエリアの値を取得
     var textareaEl = document.getElementById("message");
     var textareaValue = message.value;
+    textareaValue = escape_html(textareaValue);
     if (textareaValue != ""){
         textareaValue = textareaValue.split("\n").join("<br>");
 
