@@ -34,6 +34,6 @@ Currently, I'm working on a B2B Retrieval-Augmented Generation (RAG) knowledge p
 
 ## Contact
 
-- GitHub: [Your GitHub Account](https://github.com/marcy326)
-- X (formerly Twitter): [Your X Account](https://x.com/marc326marcy)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/masato-inoue)
+- GitHub: [marcy326](https://github.com/marcy326)
+- X: [marc326marcy](https://x.com/marc326marcy)
+- LinkedIn: [masato-inoue](https://linkedin.com/in/masato-inoue)
