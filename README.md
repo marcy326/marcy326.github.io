@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I'm Masato Inoue, an engineer based in Tokyo, specializing in cloud infrastructure using AWS and Azure, infrastructure as code (IaC) with Terraform, and CI/CD pipelines. My primary programming language is Python, and I'm experienced in AI, particularly MLOps with MLflow, container technologies (Docker, Kubernetes).
+I'm Masato Inoue, an engineer based in Tokyo, specializing in cloud infrastructure using AWS and Azure, infrastructure as code (IaC) with Terraform, and CI/CD pipelines. My primary programming language is Python, and I have extensive experience in AI, particularly in MLOps with MLflow, and container technologies (Docker, Kubernetes).
 
 Currently, I'm working on a B2B Retrieval-Augmented Generation (RAG) knowledge platform at my current workplace, focusing broadly on infrastructure, backend development, and CI/CD.
 
@@ -28,9 +28,9 @@ Currently, I'm working on a B2B Retrieval-Augmented Generation (RAG) knowledge p
 
 ## Interests
 
-- Cryptocurrency algorithmic trading
-- Automation and productivity tooling
 - Latest machine learning and AI applications
+- Automation and productivity tooling
+- Cryptocurrency algorithmic trading
 
 ## Contact
 
